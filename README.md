@@ -5,8 +5,8 @@ Simple HTTP wrapper around [AsyncAPI generator](https://www.asyncapi.com/tools/g
 ### API
 
 --------------------------------------
-#### Generate html-template files
-
+#### Create documentation
+>**At this moment only html-template generation is supported.**
 
 ```
 POST /asyncapi?src=<URL>
@@ -25,7 +25,7 @@ response:
 }
 ```
 --------------------------------------
-#### Load file
+#### Get file
 
 
 ```
