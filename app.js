@@ -5,6 +5,12 @@ const fs = require('fs');
 const app = express()
 const port = 3000
 
+process.on('SIGINT', function() {
+    console.log("Shutting down 👋. Ciao.")
+    process.exit();
+});
+
+
 app.get('/generator/index-page', (req, res) => {
     var src = req.query.src
     var id = req.query.id
@@ -47,5 +53,5 @@ app.get('/generator/index-page', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log("Starting AsyncAPI generator on port " + port)
+  console.log("AsyncAPI Generator on port " + port + " has started 🚀")
 })
