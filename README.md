@@ -2,6 +2,11 @@
 
 Simple HTTP wrapper around [AsyncAPI generator](https://www.asyncapi.com/tools/generator).
 
+
+### Installation
+
+https://hub.docker.com/r/gdulus/asyncapi-generator-service
+
 ### API
 
 --------------------------------------
