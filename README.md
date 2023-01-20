@@ -4,9 +4,9 @@ Simple HTTP wrapper around [AsyncAPI generator](https://www.asyncapi.com/tools/g
 
 ### API
 
-#### index.html page generation
+#### Generate index.html page
 ```shell
-/generator/index-page/?src=<URL>
+GET /generator/index-page/?src=<URL>
 ```
 Generates index.html page of the documentation based on document AsyncAPI file.
 Parameter `src` is mandatory in format of valid URL under which documentation can be found
