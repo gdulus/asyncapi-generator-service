@@ -23,7 +23,6 @@ response:
     "version":<String>,
     "files":Array<String>
 }
-
 ```
 --------------------------------------
 #### Load file
