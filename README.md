@@ -26,7 +26,7 @@ response:
 {
     "id":<String>,        // md5 id
     "version":<String>,   // md5 version
-    "files":Array<String> // path to generated file
+    "files":Array<String> // paths to generated files
 }
 ```
 --------------------------------------
